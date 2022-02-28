@@ -1,12 +1,14 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 const Routes = () => {
-    return (
-        <Switch>
-            <Route exact path="/" Switch component={''} />
-        </Switch>
-    ) 
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" Switch component={""} />
+      </Switch>
+    </BrowserRouter>
+  );
 };
 
 export default Routes;
