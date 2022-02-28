@@ -4,7 +4,12 @@ const MainHeader = () => {
       <nav className="main-header navbar navbar-expand navbar-dark navbar-dark">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" data-widget="pushmenu" href="/" role="button">
+            <a
+              className="nav-link"
+              data-widget="pushmenu"
+              href="/"
+              role="button"
+            >
               <i className="fas fa-arrows-alt-h"></i>
             </a>
           </li>
@@ -40,7 +45,21 @@ const MainHeader = () => {
             <a className="nav-link" data-toggle="dropdown" href="/">
               <i className="fas fa-bars"></i>
             </a>
-            <div className="dropdown-menu dropdown-menu dropdown-menu-right">  
+            <div className="dropdown-menu dropdown-menu dropdown-menu-right">
+              <a href="/" class="dropdown-item">
+                <div class="media">
+                  <img
+                    src="dist/img/user3-128x128.jpg"
+                    alt="User Avatar"
+                    class="img-size-50 img-circle mr-3"
+                  />
+                  <div class="media-body">
+                    <h3 class="dropdown-item-title">Name user</h3>
+                    <p class="text-sm">Complete name</p>
+                  </div>
+                </div>
+              </a>
+              <div className="dropdown-divider"></div>
               <a href="/" className="dropdown-item">
                 <i class="fas fa-cogs mr-2"></i> Configurações
               </a>

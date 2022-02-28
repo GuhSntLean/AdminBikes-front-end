@@ -1,30 +1,23 @@
+import LogoSystem from '../../assets/Logo/LogoSystem.png'
+import NameSystem from '../../assets/Logo/NameSystem.png'
 const Sidebar = () => {
   return (
     <>
       <aside className="main-sidebar sidebar-dark-primary elevation-4">
-        <a href="index3.html" class="brand-link">
-          <image
-            src="dist/img/AdminLTELogo.png"
-            alt="AdminLTE Logo"
-            class="brand-image img-circle elevation-3"
+        <a href="/" className="brand-link">
+          <img
+            src={LogoSystem}
+            alt="BikeIoT"
+            className="brand-image m-2"
           />
-          <span class="brand-text font-weight-light">AdminLTE 3</span>
+          <img
+            src={NameSystem}
+            alt="BikeIoT"
+            className="brand-text m-2"
+          />
+          {/* <span className="brand-text font-weight-light"></span> */}
         </a>
         <div className="sidebar">
-          <div className="user-panel mt-3 pb-3 mb-3 d-flex">
-            <div class="image">
-              <image
-                src="dist/img/user2-160x160.jpg"
-                class="img-circle elevation-2"
-                alt="User Image"
-              />
-            </div>
-            <div class="info">
-              <a href="/" class="d-block">
-                Alexander Pierce
-              </a>
-            </div>
-          </div>
           <nav className="mt-2">
             <ul
               className="nav nav-pills nav-sidebar flex-column"
@@ -91,7 +84,7 @@ const Sidebar = () => {
             >
               <li className="nav-item menu-open">
                 <a href="/" className="nav-link active">
-                  <i class="nav-icon fas fa-address-card"></i>
+                  <i className="nav-icon fas fa-address-card"></i>
                   <p>
                     Administrador
                     <i className="right fas fa-angle-left"></i>
