@@ -9,7 +9,7 @@ const MainHeader = () => {
             </a>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <a href="index3.html" className="nav-link">
+            <a href="/" className="nav-link">
               Home
             </a>
           </li>
@@ -25,17 +25,10 @@ const MainHeader = () => {
               <div className="dropdown-divider"></div>
               <a href="/" className="dropdown-item">
                 <i className="fas fa-envelope mr-2"></i> 4 new messages
-                <span className="float-right text-muted text-sm">3 mins</span>
-              </a>
-              <div className="dropdown-divider"></div>
-              <a href="/" className="dropdown-item">
-                <i className="fas fa-users mr-2"></i> 8 friend requests
-                <span className="float-right text-muted text-sm">12 hours</span>
               </a>
               <div className="dropdown-divider"></div>
               <a href="/" className="dropdown-item">
                 <i className="fas fa-file mr-2"></i> 3 new reports
-                <span className="float-right text-muted text-sm">2 days</span>
               </a>
               <div className="dropdown-divider"></div>
               <a href="/" className="dropdown-item dropdown-footer">
@@ -47,26 +40,13 @@ const MainHeader = () => {
             <a className="nav-link" data-toggle="dropdown" href="/">
               <i className="fas fa-bars"></i>
             </a>
-            <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-              <span className="dropdown-header">15 Notifications</span>
-              <div className="dropdown-divider"></div>
+            <div className="dropdown-menu dropdown-menu dropdown-menu-right">  
               <a href="/" className="dropdown-item">
-                <i className="fas fa-envelope mr-2"></i> 4 new messages
-                <span className="float-right text-muted text-sm">3 mins</span>
+                <i class="fas fa-cogs mr-2"></i> Configurações
               </a>
               <div className="dropdown-divider"></div>
               <a href="/" className="dropdown-item">
-                <i className="fas fa-users mr-2"></i> 8 friend requests
-                <span className="float-right text-muted text-sm">12 hours</span>
-              </a>
-              <div className="dropdown-divider"></div>
-              <a href="/" className="dropdown-item">
-                <i className="fas fa-file mr-2"></i> 3 new reports
-                <span className="float-right text-muted text-sm">2 days</span>
-              </a>
-              <div className="dropdown-divider"></div>
-              <a href="/" className="dropdown-item dropdown-footer">
-                See All Notifications
+                <i class="fas fa-sign-out-alt mr-2"></i> Sair
               </a>
             </div>
           </li>
