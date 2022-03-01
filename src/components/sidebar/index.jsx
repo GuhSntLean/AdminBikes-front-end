@@ -20,7 +20,7 @@ const Sidebar = () => {
                 <a href="/" className="nav-link active">
                   <i className="nav-icon fas fa-user"></i>
                   <p>
-                    Usuarios
+                    User Biker's
                     <i className="right fas fa-angle-left"></i>
                   </p>
                 </a>
