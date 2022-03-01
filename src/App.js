@@ -1,11 +1,13 @@
 import MainHeader from "./components/main-header";
 import Sidebar from "./components/sidebar";
+import Home from "./pages/home"
 
 function App() {
   return (
     <>
-      <Sidebar />
       <MainHeader />
+      <Sidebar />
+      <Home />
     </>
   );
 }
