@@ -17,12 +17,12 @@ const TableTravel = () => {
                   </button>
                 </div>
               </div>
-              <div class="card-body">
+              <div class="card-body p-0">
                 <div
                   class="card-body table-responsive p-0"
                   style={{ height: "300px" }}
                 >
-                  <table class="table table-sm table-striped">
+                  <table class="table table-sm table-striped table-bordered">
                     <thead>
                       <tr>
                         <th>ID</th>
