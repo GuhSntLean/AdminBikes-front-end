@@ -64,6 +64,29 @@ const Sidebar = () => {
               </li>
               <li className="nav-item menu-open">
                 <a href="/" className="nav-link active">
+                  <i className="nav-icon fas fa-road"></i>
+                  <p>
+                    Viagens
+                    <i className="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul className="nav nav-treeview">
+                  <li className="nav-item">
+                    <a href="/" className="nav-link">
+                      <i className="far fa-circle nav-icon"></i>
+                      <p>Active Page</p>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="/" className="nav-link">
+                      <i className="far fa-circle nav-icon"></i>
+                      <p>Inactive Page</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item menu-open">
+                <a href="/" className="nav-link active">
                   <i className="nav-icon fas fa-address-card"></i>
                   <p>
                     Administrador
