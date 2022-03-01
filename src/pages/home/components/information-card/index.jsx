@@ -12,9 +12,9 @@ const InformationCard = () => {
               <div className="icon">
                 <i className="fas fa-bicycle" />
               </div>
-              <a href="/" className="small-box-footer">
+              {/* <a href="/" className="small-box-footer">
                 More info <i className="fas fa-arrow-circle-right" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-3 col-6">
@@ -26,9 +26,9 @@ const InformationCard = () => {
               <div className="icon">
                 <i className="fas fa-users" />
               </div>
-              <a href="/" className="small-box-footer">
+              {/* <a href="/" className="small-box-footer">
                 More info <i className="fas fa-arrow-circle-right" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-3 col-6">
@@ -40,9 +40,9 @@ const InformationCard = () => {
               <div className="icon">
                 <i className="fas fa-road" />
               </div>
-              <a href="/" className="small-box-footer">
+              {/* <a href="/" className="small-box-footer">
                 More info <i className="fas fa-arrow-circle-right" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-lg-3 col-6">
@@ -54,9 +54,9 @@ const InformationCard = () => {
               <div className="icon">
                 <i class="fas fa-heartbeat"></i>
               </div>
-              <div href="/" className="small-box-footer">
+              {/* <div href="/" className="small-box-footer">
                 More info <i className="fas fa-arrow-circle-right" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

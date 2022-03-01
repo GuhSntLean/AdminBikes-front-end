@@ -22,7 +22,7 @@ const TableTravel = () => {
                   class="card-body table-responsive p-0"
                   style={{ height: "300px" }}
                 >
-                  <table class="table table-sm table-striped table-bordered">
+                  <table class="table table-striped table-bordered">
                     <thead>
                       <tr>
                         <th>ID</th>
