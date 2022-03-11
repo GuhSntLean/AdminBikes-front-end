@@ -1,10 +1,23 @@
 import React from "react";
-import { Router, Redirect } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 
-const isAuthenticate = () => {};
+const isAthenticated = () => {
+  return false;
+};
 
-const PrivateRouter = ({ ...rest }) => {
-  return <></>;
+const PrivateRouter = ({ component: Component, isPrivate, ...rest }) => {
+  return (
+    <Route
+      {...rest}
+      render={(props) =>
+        isAthenticated ? (
+          <Component {...props} />
+        ) : (
+          <Redirect to={{ pathname: "/" }} />
+        )
+      }
+    />
+  );
 };
 
 export default PrivateRouter;
