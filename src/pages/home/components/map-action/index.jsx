@@ -1,3 +1,11 @@
+import Map from "../../../../components/map/Map";
+
+let location = {
+  text: "Here",
+  lat: 37.42216,
+  lng: -122.08427,
+}
+
 const MapAction = () => {
   return (
     <>
@@ -18,7 +26,7 @@ const MapAction = () => {
                 </div>
               </div>
               <div class="card-body">
-                <div class="direct-chat-messages"></div>
+                <Map  location={location} zoomLevel={17}/>
               </div>
               <div class="card-footer"></div>
             </div>
