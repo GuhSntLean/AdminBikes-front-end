@@ -1,19 +1,27 @@
+import { useState } from "react";
 import LogoSystem from "../../assets/Logo/LogoSystem.png";
 
 const LoginPage = () => {
+  const [showDialog, setShowDialog] = useState(false);
+  const handleClose = () => setShowDialog(false);
+  const handleOpen = () => setShowDialog(true);
   return (
     <>
       <div class="hold-transition login-page">
         <div class="login-box">
           <div class="card">
             <div class="card-header text-center text-white bg-secondary mb-3 ">
-              <a href="/login" class="h4">
-                <img src={LogoSystem} alt="BikeIoT" className="brand-image m-2" />  
+              <a href="/" class="h4">
+                <img
+                  src={LogoSystem}
+                  alt="BikeIoT"
+                  className="brand-image m-2"
+                />
                 Gerenciador <b>BikeIot</b>
               </a>
             </div>
             <div class="card-body">
-              <p class="login-box-msg">Faça login pra iniciar sua sessão</p>
+              <p class="login-box-msg">Faça login para iniciar sua sessão</p>
               <form action="../../index3.html" method="post">
                 <div class="input-group mb-3">
                   <input
