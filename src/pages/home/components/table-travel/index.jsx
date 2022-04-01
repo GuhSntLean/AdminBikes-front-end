@@ -4,25 +4,25 @@ const TableTravel = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 col-12">
-            <div class="card card-warning direct-chat-warning">
-              <div class="card-header">
-                <h3 class="card-title">Table travel</h3>
-                <div class="card-tools">
+            <div className="card card-warning direct-chat-warning">
+              <div className="card-header">
+                <h3 className="card-title">Table travel</h3>
+                <div className="card-tools">
                   <button
                     type="button"
-                    class="btn btn-tool"
+                    className="btn btn-tool"
                     data-card-widget="collapse"
                   >
-                    <i class="fas fa-minus"></i>
+                    <i className="fas fa-minus"></i>
                   </button>
                 </div>
               </div>
-              <div class="card-body p-0">
+              <div className="card-body p-0">
                 <div
-                  class="card-body table-responsive p-0"
+                  className="card-body table-responsive p-0"
                   style={{ height: "300px" }}
                 >
-                  <table class="table table-striped table-bordered">
+                  <table className="table table-striped table-bordered">
                     <thead>
                       <tr>
                         <th>ID</th>
@@ -38,7 +38,7 @@ const TableTravel = () => {
                         <td>John Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-success">Approved</span>
+                          <span className="tag tag-success">Approved</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -50,7 +50,7 @@ const TableTravel = () => {
                         <td>Alexander Pierce</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-warning">Pending</span>
+                          <span className="tag tag-warning">Pending</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -62,7 +62,7 @@ const TableTravel = () => {
                         <td>Bob Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-primary">Approved</span>
+                          <span className="tag tag-primary">Approved</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -74,7 +74,7 @@ const TableTravel = () => {
                         <td>Mike Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-danger">Denied</span>
+                          <span className="tag tag-danger">Denied</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -86,7 +86,7 @@ const TableTravel = () => {
                         <td>Jim Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-success">Approved</span>
+                          <span className="tag tag-success">Approved</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -98,7 +98,7 @@ const TableTravel = () => {
                         <td>Victoria Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-warning">Pending</span>
+                          <span className="tag tag-warning">Pending</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -110,7 +110,7 @@ const TableTravel = () => {
                         <td>Michael Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-primary">Approved</span>
+                          <span className="tag tag-primary">Approved</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -122,7 +122,7 @@ const TableTravel = () => {
                         <td>Rocky Doe</td>
                         <td>11-7-2014</td>
                         <td>
-                          <span class="tag tag-danger">Denied</span>
+                          <span className="tag tag-danger">Denied</span>
                         </td>
                         <td>
                           Bacon ipsum dolor sit amet salami venison chicken
@@ -133,7 +133,7 @@ const TableTravel = () => {
                   </table>
                 </div>
               </div>
-              <div class="card-footer"></div>
+              <div className="card-footer"></div>
             </div>
           </div>
         </div>

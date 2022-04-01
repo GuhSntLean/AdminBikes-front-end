@@ -7,11 +7,11 @@ const LoginPage = () => {
   const handleOpen = () => setShowDialog(true);
   return (
     <>
-      <div class="hold-transition login-page">
-        <div class="login-box">
-          <div class="card">
-            <div class="card-header text-center text-white bg-secondary mb-3 ">
-              <a href="/" class="h4">
+      <div className="hold-transition login-page">
+        <div className="login-box">
+          <div className="card">
+            <div className="card-header text-center text-white bg-secondary mb-3 ">
+              <a href="/" className="h4">
                 <img
                   src={LogoSystem}
                   alt="BikeIoT"
@@ -20,49 +20,49 @@ const LoginPage = () => {
                 Gerenciador <b>BikeIot</b>
               </a>
             </div>
-            <div class="card-body">
-              <p class="login-box-msg">Faça login para iniciar sua sessão</p>
+            <div className="card-body">
+              <p className="login-box-msg">Faça login para iniciar sua sessão</p>
               <form action="../../index3.html" method="post">
-                <div class="input-group mb-3">
+                <div className="input-group mb-3">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Username ou Email"
                   />
-                  <div class="input-group-append">
-                    <div class="input-group-text">
-                      <span class="fas fa-users"></span>
+                  <div className="input-group-append">
+                    <div className="input-group-text">
+                      <span className="fas fa-users"></span>
                     </div>
                   </div>
                 </div>
-                <div class="input-group mb-3">
+                <div className="input-group mb-3">
                   <input
                     type="password"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Password"
                   />
-                  <div class="input-group-append">
-                    <div class="input-group-text">
-                      <span class="fas fa-lock"></span>
+                  <div className="input-group-append">
+                    <div className="input-group-text">
+                      <span className="fas fa-lock"></span>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-8">
-                    <div class="icheck-primary">
+                <div className="row">
+                  <div className="col-8">
+                    <div className="icheck-primary">
                       <input type="checkbox" id="remember" />
                       <label for="remember"> Lembrar ?</label>
                     </div>
                   </div>
 
-                  <div class="col-4">
-                    <button type="submit" class="btn btn-primary btn-block">
+                  <div className="col-4">
+                    <button type="submit" className="btn btn-primary btn-block">
                       Entrar
                     </button>
                   </div>
                 </div>
               </form>
-              <p class="mb-1">
+              <p className="mb-1">
                 <a href="forgot-password.html">Esqueceu a senha ?</a>
               </p>
             </div>

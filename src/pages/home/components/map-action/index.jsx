@@ -12,23 +12,23 @@ const MapAction = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 col-12">
-            <div class="card card-gray direct-chat-gray">
-              <div class="card-header">
-                <h3 class="card-title">Map actions</h3>
-                <div class="card-tools">
+            <div className="card card-gray direct-chat-gray">
+              <div className="card-header">
+                <h3 className="card-title">Map actions</h3>
+                <div className="card-tools">
                   <button
                     type="button"
-                    class="btn btn-tool"
+                    className="btn btn-tool"
                     data-card-widget="collapse"
                   >
-                    <i class="fas fa-minus"></i>
+                    <i className="fas fa-minus"></i>
                   </button>
                 </div>
               </div>
-              <div class="card-body">
+              <div className="card-body">
                 <Map  location={location} zoomLevel={17}/>
               </div>
-              <div class="card-footer"></div>
+              <div className="card-footer"></div>
             </div>
           </div>
         </div>
