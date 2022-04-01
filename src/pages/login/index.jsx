@@ -1,10 +1,16 @@
 import { useState } from "react";
 import LogoSystem from "../../assets/Logo/LogoSystem.png";
+import ModalRemember from "./components/modal/RememberModal";
 
 const LoginPage = () => {
   const [showDialog, setShowDialog] = useState(false);
-  const handleClose = () => setShowDialog(false);
-  const handleOpen = () => setShowDialog(true);
+  
+  const handleClose = () => {
+    setShowDialog(false);
+  };
+  const handleOpen = () => {
+    setShowDialog(true);
+  };
   return (
     <>
       <div className="hold-transition login-page">
@@ -21,7 +27,9 @@ const LoginPage = () => {
               </a>
             </div>
             <div className="card-body">
-              <p className="login-box-msg">Faça login para iniciar sua sessão</p>
+              <p className="login-box-msg">
+                Faça login para iniciar sua sessão
+              </p>
               <form action="../../index3.html" method="post">
                 <div className="input-group mb-3">
                   <input
@@ -51,7 +59,7 @@ const LoginPage = () => {
                   <div className="col-8">
                     <div className="icheck-primary">
                       <input type="checkbox" id="remember" />
-                      <label for="remember"> Lembrar ?</label>
+                      <label htmlFor="remember"> Lembrar ?</label>
                     </div>
                   </div>
 
@@ -62,13 +70,21 @@ const LoginPage = () => {
                   </div>
                 </div>
               </form>
-              <p className="mb-1">
-                <a href="forgot-password.html">Esqueceu a senha ?</a>
-              </p>
+            </div>
+            <div className="card-body">
+              <div className="input-group mb-3">
+                <button
+                  onClick={handleOpen}
+                  className="btn btn-outline-secondary btn-block btn-sm"
+                >
+                  Esqueceu a senha ? Clique aqui
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <ModalRemember onCLose={() => handleClose()} statusModal={showDialog} />
     </>
   );
 };
