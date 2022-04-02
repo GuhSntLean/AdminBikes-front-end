@@ -19,23 +19,21 @@ const ModalRemember = (props) => {
       keyboard={false}
       centered
     >
-      <Modal.Header className="bg-secondary" closeButton>
+      <Modal.Header className="bg-secondary">
         <Modal.Title>Recuperação de conta</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <div>
-          <label htmlFor="info-mail">Digite seu e-mail para recuperação</label>
-          <input type="email" id="info-mail" />
+        <div className="form-group">
+          <label htmlFor="info-mail" >Digite seu e-mail para recuperação</label>
+          <input type="email" id="info-mail" className="form-control"/>
         </div>
       </Modal.Body>
       <Modal.Footer>
         <button className="btn btn-danger" onClick={cancelInformation}>
-          {" "}
-          Cancelar{" "}
+          Cancelar
         </button>
         <button className="btn btn-primary" onClick={confirmationInformation}>
-          {" "}
-          Confirmar{" "}
+          Confirmar
         </button>
       </Modal.Footer>
     </Modal>

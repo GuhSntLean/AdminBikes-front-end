@@ -1,18 +1,23 @@
 import { useState } from "react";
 import LogoSystem from "../../assets/Logo/LogoSystem.png";
 import ModalRemember from "./components/modal/RememberModal";
+import ToastStatus from "../../components/custom-toast";
 
 const LoginPage = () => {
   const [showDialog, setShowDialog] = useState(false);
-  
+
   const handleClose = () => {
     setShowDialog(false);
   };
+
   const handleOpen = () => {
     setShowDialog(true);
   };
+
   return (
     <>
+      <ModalRemember onCLose={() => handleClose()} statusModal={showDialog} />
+      <ToastStatus />
       <div className="hold-transition login-page">
         <div className="login-box">
           <div className="card">
@@ -84,7 +89,6 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
-      <ModalRemember onCLose={() => handleClose()} statusModal={showDialog} />
     </>
   );
 };
