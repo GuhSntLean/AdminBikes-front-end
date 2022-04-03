@@ -1,4 +1,5 @@
 import Map from "../../../../components/map/Map";
+import QrCodeGeneration from "../../../../components/qrcodeGeneration";
 
 let location = {
   text: "Here",
@@ -26,7 +27,8 @@ const MapAction = () => {
                 </div>
               </div>
               <div className="card-body">
-                <Map  location={location} zoomLevel={17}/>
+                {/* <Map  location={location} zoomLevel={17}/> */}
+                {/* <QrCodeGeneration codeBike="google.com" level="M"/> */}
               </div>
               <div className="card-footer"></div>
             </div>
