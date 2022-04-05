@@ -8,7 +8,7 @@ const QrCodeGeneration = (props) => {
         size={200}
         bgColor={"#6C757D"}
         fgColor={"#0F9FE2"}
-        level={"H"}
+        level={props.level}
         includeMargin={true}
         imageSettings={{
           src: "./image/simbol.png",

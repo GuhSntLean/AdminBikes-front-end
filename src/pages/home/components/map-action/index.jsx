@@ -27,8 +27,8 @@ const MapAction = () => {
                 </div>
               </div>
               <div className="card-body">
-                {/* <Map  location={location} zoomLevel={17}/> */}
-                {/* <QrCodeGeneration codeBike="google.com" level="M"/> */}
+                <Map  location={location} zoomLevel={17}/>
+                <QrCodeGeneration codeBike="google.com" level="H"/>
               </div>
               <div className="card-footer"></div>
             </div>
