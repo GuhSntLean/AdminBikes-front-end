@@ -28,13 +28,7 @@ const Sidebar = () => {
                   <li className="nav-item">
                     <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon"></i>
-                      <p>Active Page</p>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="/" className="nav-link">
-                      <i className="far fa-circle nav-icon"></i>
-                      <p>Inactive Page</p>
+                      <p>Gerenciar usuario</p>
                     </a>
                   </li>
                 </ul>
@@ -51,13 +45,13 @@ const Sidebar = () => {
                   <li className="nav-item">
                     <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon"></i>
-                      <p>Active Page</p>
+                      <p>Gerenciar bikes</p>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon"></i>
-                      <p>Inactive Page</p>
+                      <p>Criar bikes</p>
                     </a>
                   </li>
                 </ul>
@@ -74,13 +68,7 @@ const Sidebar = () => {
                   <li className="nav-item">
                     <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon"></i>
-                      <p>Active Page</p>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="/" className="nav-link">
-                      <i className="far fa-circle nav-icon"></i>
-                      <p>Inactive Page</p>
+                      <p>Gerenciar viagens</p>
                     </a>
                   </li>
                 </ul>
@@ -97,13 +85,19 @@ const Sidebar = () => {
                   <li className="nav-item">
                     <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon"></i>
-                      <p>Active Page</p>
+                      <p>Gerenciar administrador</p>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="/" className="nav-link">
                       <i className="far fa-circle nav-icon"></i>
-                      <p>Inactive Page</p>
+                      <p>Criar administrador</p>
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="/" className="nav-link">
+                      <i className="far fa-circle nav-icon"></i>
+                      <p>Configurações</p>
                     </a>
                   </li>
                 </ul>
